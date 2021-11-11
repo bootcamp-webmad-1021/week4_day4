@@ -1,0 +1,36 @@
+<h1>Formulario de nuevo libro</h1>
+<hr>
+</br>
+{{!-- 2. Picar el formulario --}}
+{{!-- 3. Decidir dónde envía la info. En este caso  --}}
+<form action="/nuevo-libro" method="POST">
+
+  <label>
+    Titulo
+    <input type="text" name="title">
+  </label>
+  </br>
+
+
+  <label>
+    Descripción
+    <input type="text" name="description">
+  </label>
+  </br>
+
+
+  <label>
+    Autor
+    <input type="text" name="author">
+  </label>
+  </br>
+
+  <label>
+    Valoración
+    <input type="number" name="rating">
+  </label>
+  </br>
+
+
+  <input type="submit" value="Crear nuevo libro">
+</form>

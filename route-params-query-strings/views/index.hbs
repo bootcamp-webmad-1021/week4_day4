@@ -1,0 +1,58 @@
+<h3>Route params</h3>
+
+<p>Los route params se almacenan en el objeto <code>req.params</code></p>
+<p>Ejemplo de páginas de vuelos:</p>
+<ul>
+    <li>
+        <a href="/vuelos/origen/madrid/destino/berlin/fecha/23-11-2022" target="_blank">Ejemplo 1</a>
+    </li>
+    <li>
+        <a href="/vuelos/origen/amsterdam/destino/utrecht/fecha/09-02-2025" target="_blank">Ejemplo 2</a>
+    </li>
+</ul>
+
+<hr>
+
+<h3>Query Strings</h3>
+
+<p>Los query strings se almacenan en el objeto <code>req.query</code></p>
+
+<p>Ejemplo de páginas de tienda:</p>
+<ul>
+    <li>
+        <a href="/tienda?prenda=pantalon&prenda=camiseta&temporada=verano&talla=M&color=rojo" target="_blank">Ejemplo
+            1</a>
+    </li>
+    <li>
+        <a href="/tienda?prenda=blusa&temporada=invierno&talla=S&color=caqui" target="_blank">Ejemplo 2</a>
+    </li>
+</ul>
+
+
+<hr>
+
+<h3>Formulario de búsqueda (GET)</h3>
+
+<p>Los datos introducidos en un formulario GET son enviados en la propia URL como query strings</p>
+
+<p>Ejemplo de formulario:</p>
+<ul>
+    <li>
+        <a href="/buscador">Ejemplo</a>
+    </li>
+</ul>
+
+
+<hr>
+
+<h3>Formulario de login (POST)</h3>
+
+<p>Los datos introducidos en un formulario POST son enviados de forma privada a través del objeto <code>req.body</code>
+</p>
+
+<p>Ejemplo de formulario:</p>
+<ul>
+    <li>
+        <a href="/iniciar-sesion">Ejemplo</a>
+    </li>
+</ul>
